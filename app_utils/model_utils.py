@@ -1,7 +1,7 @@
 import torch
 import streamlit as st
 
-@st.cache_resources
+@st.cache_resource
 def load_yolov5_model() -> object:
     """
     Load the pre-trained YOLOv5 model using the torch.hub utility.
