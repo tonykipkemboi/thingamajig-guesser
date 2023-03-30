@@ -7,3 +7,5 @@ psutil==5.9.4
 torchvision==0.15.1
 PyYAML==6.0
 tqdm
+numpy
+matplotlib
